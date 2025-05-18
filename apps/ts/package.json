@@ -1,0 +1,19 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "archive": "npx tsx ./archive-old-files.ts",
+    "archive:run": "npx tsx ./archive-old-files.ts --run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  }
+}
