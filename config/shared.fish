@@ -6,6 +6,7 @@ set fish_greeting
 
 fish_add_path /opt/homebrew/bin
 fish_add_path "~/Library/Application Support/JetBrains/Toolbox/scripts"
+fish_add_path ~/Library/Android/sdk/platform-tools
 fnm env --use-on-cd | source
 
 
