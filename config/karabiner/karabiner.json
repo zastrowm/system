@@ -251,12 +251,12 @@
                         ]
                     },
                     {
-                        "description": "Ctrl + Arrow Keys to Option + Arrow Keys",
+                        "description": "Command + Arrow Keys to Option + Arrow Keys",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "up_arrow",
-                                    "modifiers": { "mandatory": ["control"] }
+                                    "modifiers": { "mandatory": ["command"] }
                                 },
                                 "to": [
                                     {
@@ -269,7 +269,7 @@
                             {
                                 "from": {
                                     "key_code": "down_arrow",
-                                    "modifiers": { "mandatory": ["control"] }
+                                    "modifiers": { "mandatory": ["command"] }
                                 },
                                 "to": [
                                     {
@@ -282,7 +282,7 @@
                             {
                                 "from": {
                                     "key_code": "left_arrow",
-                                    "modifiers": { "mandatory": ["control"] }
+                                    "modifiers": { "mandatory": ["command"] }
                                 },
                                 "to": [
                                     {
@@ -295,7 +295,7 @@
                             {
                                 "from": {
                                     "key_code": "right_arrow",
-                                    "modifiers": { "mandatory": ["control"] }
+                                    "modifiers": { "mandatory": ["command"] }
                                 },
                                 "to": [
                                     {
@@ -313,7 +313,7 @@
                             {
                                 "from": {
                                     "key_code": "up_arrow",
-                                    "modifiers": { "mandatory": ["control", "shift"] }
+                                    "modifiers": { "mandatory": ["command", "shift"] }
                                 },
                                 "to": [
                                     {
@@ -326,7 +326,7 @@
                             {
                                 "from": {
                                     "key_code": "down_arrow",
-                                    "modifiers": { "mandatory": ["control", "shift"] }
+                                    "modifiers": { "mandatory": ["command", "shift"] }
                                 },
                                 "to": [
                                     {
@@ -339,7 +339,7 @@
                             {
                                 "from": {
                                     "key_code": "left_arrow",
-                                    "modifiers": { "mandatory": ["control", "shift"] }
+                                    "modifiers": { "mandatory": ["command", "shift"] }
                                 },
                                 "to": [
                                     {
@@ -352,7 +352,7 @@
                             {
                                 "from": {
                                     "key_code": "right_arrow",
-                                    "modifiers": { "mandatory": ["control", "shift"] }
+                                    "modifiers": { "mandatory": ["command", "shift"] }
                                 },
                                 "to": [
                                     {
@@ -420,12 +420,12 @@
             "selected": true,
             "simple_modifications": [
                 {
-                    "from": { "key_code": "left_control" },
-                    "to": [{ "key_code": "left_command" }]
-                },
-                {
                     "from": { "key_code": "left_command" },
                     "to": [{ "key_code": "left_control" }]
+                },
+                {
+                    "from": { "key_code": "left_control" },
+                    "to": [{ "key_code": "left_command" }]
                 }
             ],
             "virtual_hid_keyboard": {
